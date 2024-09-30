@@ -1,0 +1,438 @@
+@import url(https://db.onlinewebfonts.com/c/d930760769788d4aaa8f4b153aed37ba?family=MarkForMC+Nrw);
+@font-face {
+    font-family: "MarkForMC Nrw";
+    src: url("https://db.onlinewebfonts.com/t/d930760769788d4aaa8f4b153aed37ba.eot");
+    src: url("https://db.onlinewebfonts.com/t/d930760769788d4aaa8f4b153aed37ba.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/d930760769788d4aaa8f4b153aed37ba.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/d930760769788d4aaa8f4b153aed37ba.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/d930760769788d4aaa8f4b153aed37ba.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/d930760769788d4aaa8f4b153aed37ba.svg#MarkForMC Nrw")format("svg");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+	 background-color: #2f8f2f;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    font-family: SANS-SERIF;
+    text-size-adjust: auto;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+h2 {
+    font-family: MarkForMC Nrw;
+    color: #41b341;
+    font-weight: 200;
+    font-size: 34.5px;
+    line-height: 1.45;
+}
+p{
+    font-family: MarkForMC Nrw;
+    color: #4e4e4e;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+p2{
+    font-family: MarkForMC Nrw;
+    color: #2b2b2b;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+/*
+
+.navbar {
+    background-color: #2f8f2f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+   padding-bottom: 2%;
+    z-index: 1000;
+}
+*/
+            .navbar {
+                flex-direction: column;
+                display: none;
+            }
+
+            .menu {
+                display: block;
+                background-color: #2f8f2f;
+                color:white;
+                padding:5%;
+    		}
+
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.nav-links a:hover, .donate-button {
+    background-color: #41b341;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.selected {
+    background-color: #41b341;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    color: white;
+  }
+.donate-button {
+    font-weight: bold;
+}
+
+.background-image {
+    background-image: url('bosa-charity-img40.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-donate-btn {
+    background-color: #41b341;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-donate-btn:hover {
+    background-color: #2f8f2f;
+}
+
+.content-section {
+    padding: 10px 0;
+    text-align: center;
+    padding-top: 6%;
+}
+.content-section1 {
+    padding: 10px 0;
+    text-align: center;
+    padding-top: 12%;
+}
+.content-section h2 {
+    color: #2f8f2f;
+    margin-bottom: 20px;
+    font-size: 28px;
+  font-weight: bold;
+}
+
+.card {
+    background-color: #fdfbfb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card1 {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card2-contact{
+ background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    box-sizing: border-box;
+        position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding:5%;
+    margin:10%;
+}
+
+.card2 {
+ background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    box-sizing: border-box;
+        position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+footer {
+    background-color: #2f8f2f;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+ overflow: hidden; /* Hide overflowing images for smooth sliding */
+}
+
+.slides {
+    display: none;
+    position: relative;
+/* */
+    width: 100%;
+    height: auto;
+    -webkit-transition: transform 5s ease;
+    transition: transform 1.5s ease;
+/* */
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Text on the image */
+.text {
+    color: white;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+  /* Responsive Styles */
+        @media (max-width: 768px) {
+
+            .navbar {
+                flex-direction: column;
+                display: none;
+            }
+
+            .menu {
+                display: block;
+                background-color: #2f8f2f;
+                color:white;
+                padding:5%;
+    		}
+
+            .dropdown-content {
+                position: static;
+                width: 100%;
+            }
+
+            nav a, .dropdown-content a {
+                text-align: center;
+            }
+            .card1{
+            	width: 100%; /* Full width on smaller screens */
+
+
+            }
+            .card2{
+            	padding:2%;
+            	margin:5%;
+            }
+            .hero-content{
+                position: absolute;
+    			top: 50%;
+   				left: 50%;
+   				transform: translate(-50%, -50%);
+    			text-align: center;
+    			background-color: rgba(0, 0, 0, 0.6);
+    			color: white;
+    			padding: 3%;
+    			border-radius: 10px;
+			}
+        }
+        form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}

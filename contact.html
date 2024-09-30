@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ACHOR</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" type="image/logo" href="/images/favicon.ico">
+<link href="https://db.onlinewebfonts.com/c/d930760769788d4aaa8f4b153aed37ba?family=MarkForMC+Nrw" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      
+<header>
+	
+  <div class="menu" onclick="toggleMenu()" >☰ Menu</div>
+
+<nav class="navbar">
+<!-- <span class="close-btn" onclick="closeMenu()" style="color: #ffffff">X</span> -->
+    <a href="index.html">Home</a>
+ 	<a href="about.html">About Us</a>
+    <a href="staff.html">Our Team</a>    
+    <a href="contact.html">Contact</a>
+    <a href="#donate" class="donate-button">Donate</a>
+
+</nav>
+</header>
+
+<!--    <section id="contact" class="content-section1">
+        <h2>Contact Us</h2>
+        <div class="card">
+            <p>Location: Aweil Jadid, opposite to UNMISS Compound, Wau, South Sudan</p>
+            <p>WhatsApp: +211910755143 | Phone: +211920407094</p>
+<a href="https://www.facebook.com/profile.php?id=100067769620482" class="btn btn-primary" target="_blank">Visit Our Facebook Page</a>
+        </div>
+    </section>
+-->
+ <section id="contact">
+ 	<div class="card2-contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    </section>
+  <footer>
+        <div class="footer-content">
+   <p style="color:white;">Location: Aweil Jadid, opposite to UNMISS Compound, Wau, South Sudan</p>
+            <p style="color:white;">WhatsApp: +211910755143 | Phone: +211920407094</p>
+<a href="https://www.facebook.com/profile.php?id=100067769620482" class="btn btn-primary" target="_blank">Visit Our Facebook Page</a>
+            <p style="color:white;">&copy; 2024 Aid Community Health Organization for Relief (ACHOR)</p>
+        </div>
+    </footer>
+
+<script>
+    function toggleMenu() {
+        var navbar = document.querySelector('.navbar');
+        if (navbar.style.display === "flex") {
+            navbar.style.display = "none";
+        } else {
+            navbar.style.display = "flex";
+        }
+    }
+     function openMenu() {
+        document.getElementById(".navbar").style.display = "flex";
+    }
+
+    function closeMenu() {
+        //document.getElementById(".navbar").style.display = "none";
+          var navbar = document.querySelector('.navbar');
+        if (navbar.style.display === "flex") {
+            navbar.style.display = "none";
+        } else {
+            navbar.style.display = "flex";
+        }
+    }
+</script>
+</body>
+</html>
