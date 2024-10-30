@@ -234,7 +234,6 @@ p2{
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
-	margin: 1%;
 }
 .card2-contact{
  background-color: white;
@@ -283,8 +282,6 @@ p2{
     max-width: 1200px;
     margin: auto;
 }
-
-
 footer {
     background-color: #2f8f2f;
     padding: 20px;
@@ -392,15 +389,15 @@ img {
     from {opacity: .4} 
     to {opacity: 1}
 }
+
 @media (max-width: 480px) {
   .gallery-item {
     flex: 1 1 100%;
   }
 }
-
   /* Responsive Styles */
         @media (max-width: 768px) {
- .gallery-item {
+.gallery-item {
     flex: 1 1 calc(50% - 20px);
   }
             .navbar {
