@@ -30,13 +30,15 @@ body {
     background-color: #ffffff;
 }
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  max-width: 1200px;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 20px !important;
+  max-width: 1200px !important;
 }
 
 .gallery-item {
+	  width: calc(33.333% - 20px) !important;
+    height: 250px !important;
   position: relative;
   overflow: hidden;
   flex: 1 1 calc(33.333% - 20px);
