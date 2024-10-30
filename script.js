@@ -4,7 +4,27 @@ let slideIndex = 0;
 let slides = document.getElementsByClassName("slides");
 let dots = document.getElementsByClassName("dot");
 let autoSlideInterval;
+    function toggleMenu() {
+        var navbar = document.querySelector('.navbar');
+        if (navbar.style.display === "flex") {
+            navbar.style.display = "none";
+        } else {
+            navbar.style.display = "flex";
+        }
+    }
+     function openMenu() {
+        document.getElementById(".navbar").style.display = "flex";
+    }
 
+    function closeMenu() {
+        //document.getElementById(".navbar").style.display = "none";
+          var navbar = document.querySelector('.navbar');
+        if (navbar.style.display === "flex") {
+            navbar.style.display = "none";
+        } else {
+            navbar.style.display = "flex";
+        }
+    }
 // Initialize slideshow
 showSlides();
 
