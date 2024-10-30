@@ -139,6 +139,28 @@ Education, Health and Agricultural practices.</p>
     </footer>
 
     <script src="script.js"></script>
+<script>
+	    function toggleMenu() {
+        var navbar = document.querySelector('.navbar');
+        if (navbar.style.display === "flex") {
+            navbar.style.display = "none";
+        } else {
+            navbar.style.display = "flex";
+        }
+    }
+     function openMenu() {
+        document.getElementById(".navbar").style.display = "flex";
+    }
 
+    function closeMenu() {
+        //document.getElementById(".navbar").style.display = "none";
+          var navbar = document.querySelector('.navbar');
+        if (navbar.style.display === "flex") {
+            navbar.style.display = "none";
+        } else {
+            navbar.style.display = "flex";
+        }
+    }
+</script>
 </body>
 </html>
